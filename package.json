@@ -1,0 +1,37 @@
+{
+  "name": "@hzzlyxx/stylelint-config-scss",
+  "version": "0.0.1",
+  "description": "stylelint config scss",
+  "main": "index.js",
+  "keywords": [
+    "stylelint"
+  ],
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hzzlyxx/stylelint-config-scss.git"
+  },
+  "author": "hjingren@aliyun.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hzzlyxx/stylelint-config-scss/issues"
+  },
+  "homepage": "https://github.com/hzzlyxx/stylelint-config-scss#readme",
+  "dependencies": {
+    "postcss": "^8.4.21",
+    "postcss-html": "^1.5.0",
+    "postcss-scss": "^4.0.6",
+    "stylelint-config-rational-order": "^0.1.2",
+    "stylelint-config-standard": "^30.0.1",
+    "stylelint-declaration-block-no-ignored-properties": "^2.7.0",
+    "stylelint-order": "^6.0.2",
+    "stylelint-scss": "^4.4.0"
+  },
+  "peerDependencies": {
+    "stylelint": ">=14.0.0"
+  }
+}
